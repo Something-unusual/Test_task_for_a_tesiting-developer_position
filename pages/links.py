@@ -3,5 +3,5 @@ class MainPageLinks:
     TENSOR_MANE_PAGE = "https://tensor.ru/"
 
 
-class PicturePageLinks:
+class PicturesPageLinks:
     YANDEX_PICTURES_URL = "https://yandex.ru/images/"

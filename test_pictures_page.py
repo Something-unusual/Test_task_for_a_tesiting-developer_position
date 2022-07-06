@@ -5,7 +5,7 @@ from pages.links import MainPageLinks
 
 @pytest.mark.yandex
 class TestSearchFroPicturesPage:
-    def test_users_can_swipe_pictures_on_yandex_pictures_page(self, browser):
+    def test_users_can_open_and_swipe_pictures_on_yandex_pictures_page(self, browser):
         link = MainPageLinks.YANDEX_MANE_PAGE
         page = PicturesPage(browser, link)
         page.open()
